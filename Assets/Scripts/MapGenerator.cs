@@ -34,7 +34,7 @@ public class MapGenerator : MonoBehaviour
         {
             for (int x = 0; x < mapWidth; x++)
             {
-                float currentHeight = noiseMap[y, x];
+                float currentHeight = noiseMap[x, y];
                 for (int i = 0; i < regions.Length; i++)
                 {
                     if (currentHeight <= regions[i].height)
