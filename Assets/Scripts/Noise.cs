@@ -37,7 +37,7 @@ public static class Noise
                 float noiseHeight = 0;
 
                 for (int o = 0; o < octaves; o++)
-                {   
+                {
                     float sampleX = (x - halfWidth) / scale * frequency + octaveOffsets[o].x;
                     float sampleY = (y - halfHeight) / scale * frequency + octaveOffsets[o].y;
 
